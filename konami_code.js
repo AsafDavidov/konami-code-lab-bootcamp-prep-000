@@ -15,8 +15,9 @@ let index = 0;
 function onKeyDownHandler(e){
   if (e === undefined){}
   else{
-    const key = e.key;
     
+    const key = e.key;
+    console.log(key);
     if (key === codes[index]){
       index++;
       if (index === codes.length){
