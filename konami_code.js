@@ -18,7 +18,8 @@ function init() {
 let index = 0;
 
 function onKeyDownHandler(e){
-  console.log('60');
+  const key = e.key;
+  console.log(key);
 }
 
 
