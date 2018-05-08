@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 function init() {
-  const body = document.querySelector('body');
+  let body = document.querySelector('body');
   body.addEventListener('keydown', onKeyDownHandler(event));
 }
 
