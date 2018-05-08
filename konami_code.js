@@ -13,7 +13,6 @@ const codes = [
 
 
 function init() {
-
 }
 
 
