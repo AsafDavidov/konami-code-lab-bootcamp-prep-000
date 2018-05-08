@@ -13,7 +13,7 @@ const codes = [
 let index = 0;
 
 function onKeyDownHandler(e){
-  if (e.which === undefined){}
+  if (e === undefined){}
   else{
     const key = e.key;
     
