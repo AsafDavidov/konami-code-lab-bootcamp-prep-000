@@ -13,7 +13,9 @@ const codes = [
 let index = 0;
 
 function onKeyDownHandler(e){
-  if (e === undefined){}
+  if (e === undefined){
+    console.log('loaded')
+  }
   else{
     
     const key = e.key;
