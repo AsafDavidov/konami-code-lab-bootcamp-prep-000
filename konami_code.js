@@ -23,11 +23,9 @@ function onKeyDownHandler(e){
     }
     else{
       const key = e.key;
-      console.log(index);
       if (key === codes[index]){
         index++;
         if (index === codes.length){
-          console.log(index + ' end')
           alert("Hurray!");
           index = 0;
         }
