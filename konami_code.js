@@ -14,7 +14,7 @@ let index = 0;
 
 function onKeyDownHandler(e){
   if (e === undefined){
-    console.log('loaded')
+    console.log('loaded');
   }
   else{
     
