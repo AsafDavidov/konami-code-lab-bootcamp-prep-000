@@ -22,7 +22,6 @@ function onKeyDownHandler(e){
     if (e === undefined){
     }
     else{
-      
       const key = e.key;
       if (key === codes[index]){
         index++;
