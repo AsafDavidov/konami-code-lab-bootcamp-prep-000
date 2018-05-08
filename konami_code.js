@@ -14,7 +14,7 @@ let index = 0;
 
 function init() {
   const body = document.querySelector('body');
-  body.addEventListener('keydown', console.log('8'));
+  body.addEventListener('click', console.log('8'));
 }
 
 function onKeyDownHandler(e){
